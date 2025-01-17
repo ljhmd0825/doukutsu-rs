@@ -4,7 +4,7 @@
   "font_scale": "0.5",
   "common": {
     "name": "doukutsu-rs",
-    "back": "< 돌아가기",
+    "back": "< 뒤고 가기",
     "yes": "예",
     "no": "아니오",
     "on": "켜기",
@@ -13,27 +13,27 @@
   "menus": {
     "main_menu": {
       "start": "게임 시작",
-      "challenges": "도전",
-      "options": "설정",
-      "editor": "레벨 편집기",
-      "jukebox": "주크박스",
+      "challenges": "챌린지",
+      "options": "옵션",
+      "editor": "에디터",
+      "jukebox": "주크 박스",
       "quit": "종료"
     },
     "pause_menu": {
-      "resume": "계속하기",
+      "resume": "이어하기",
       "retry": "재시도",
-      "options": "설정",
-      "title": "메인 메뉴",
-      "title_confirm": "메인 메뉴로 돌아갈까요?",
+      "options": "옵션",
+      "title": "타이틀 화면",
+      "title_confirm": "타이틀 화면으로 돌아갈까요?",
       "quit": "종료",
-      "quit_confirm": "종료하시겠습니까?",
-      "add_player2": "플레이어 2 추가",
-      "drop_player2": "플레이어 2 삭제"
+      "quit_confirm": "종료할까요？",
+      "add_player2": "2P 플레이어를 부름",
+      "drop_player2": "2P 플레이어를 보냄"
     },
     "save_menu": {
       "new": "새 데이터",
-      "delete_info": "오른쪽 화살표 키로 삭제",
-      "delete_confirm": "삭제하시겠습니까?",
+      "delete_info": "오른쪽 버튼으로 삭제",
+      "delete_confirm": "삭제？",
       "invalid_save": "잘못된 저장"
     },
     "difficulty_menu": {
@@ -42,15 +42,15 @@
       "normal": "보통",
       "hard": "어려움",
       "difficulty_name": "난이도: {difficulty}",
-      "unknown": "(알 수 없음)"
+      "unknown": "(알수없음)"
     },
     "coop_menu": {
       "title": "플레이어 수 선택",
-      "one": "1인 플레이",
+      "one": "싱글 플레이",
       "two": "2인 플레이"
     },
     "skin_menu": {
-      "title": "플레이어 2 외형 선택",
+      "title": "플레이어 2의 외형을 선택",
       "label": "외형:"
     },
     "challenge_menu": {
@@ -68,53 +68,53 @@
           "windowed": "창 모드",
           "fullscreen": "전체 화면"
         },
-        "lighting_effects": "조명 효과:",
-        "weapon_light_cone": "무기 라이트 콘:",
+        "lighting_effects": "조명 효과：",
+        "weapon_light_cone": "무기 라이트 콘：",
         "screen_shake": {
-          "entry": "화면 흔들림:",
-          "full": "1배",
-          "half": "0.5배",
-          "off": "끔"
+          "entry": "화면 흔들림 강도：",
+          "full": "1x",
+          "half": "0.5x",
+          "off": "끄기"
         },
-        "motion_interpolation": "모션 보간:",
-        "subpixel_scrolling": "서브픽셀 스크롤링:",
-        "original_textures": "오리지널 텍스처:",
-        "seasonal_textures": "시즈널 텍스처:",
-        "renderer": "렌더러:",
+        "motion_interpolation": "모션 보간：",
+        "subpixel_scrolling": "서브 픽셀 스크롤링：",
+        "original_textures": "오리지널 텍스처：",
+        "seasonal_textures": "계절 텍스처：",
+        "renderer": "랜더러：",
         "vsync_mode": {
-          "entry": "V-Sync:",
-          "uncapped": "제한 없음",
-          "uncapped_desc": "V-Sync 끔.",
-          "vsync": "켜짐",
-          "vsync_desc": "V-Sync 켜짐.",
+          "entry": "V-싱크:",
+          "uncapped": "무제한",
+          "uncapped_desc": "V-싱크 끄기.",
+          "vsync": "활성화",
+          "vsync_desc": "V-싱크 켜기.",
           "vrr_1x": "가변 주사율 (1배)",
-          "vrr_1x_desc": "가능하면 (G-/Free)Sync 사용.",
+          "vrr_1x_desc": "가능하면 (G-/Free)싱크 사용.",
           "vrr_2x": "가변 주사율 (2배)",
-          "vrr_2x_desc": "가능하면 (G-/Free)Sync 사용.",
+          "vrr_2x_desc": "가능하면 (G-/Free)싱크 사용.",
           "vrr_3x": "가변 주사율 (3배)",
-          "vrr_3x_desc": "가능하면 (G-/Free)Sync 사용."
+          "vrr_3x_desc": "가능하면 (G-/Free)싱크 사용."
         }
       },
-      "sound": "소리",
+      "sound": "사운드",
       "sound_menu": {
         "music_volume": "배경음악 볼륨",
         "effects_volume": "효과음 볼륨",
         "bgm_interpolation": {
-          "entry": "배경음악 보간:",
-          "linear": "선형 보간",
+          "entry": "배경음악 보간：",
+          "linear": "선형보간",
           "linear_desc": "빠르고, 프리웨어 버전과 유사 (Vista+)",
           "cosine": "코사인",
           "cosine_desc": "코사인 보간",
           "cubic": "큐빅",
           "cubic_desc": "큐빅 보간",
-          "linear_lp": "선형 보간+LP",
+          "linear_lp": "선형보간+LP",
           "linear_lp_desc": "가장 느림, 프리웨어 버전과 유사 (XP)",
-          "nearest": "최단거리",
+          "nearest": "최단입점",
           "nearest_desc": "가장 빠르고, 품질 낮음"
         },
-        "soundtrack": "사운드트랙: {soundtrack}"
+        "soundtrack": "사운드 트랙： {soundtrack}"
       },
-      "controls": "조작 변경",
+      "controls": "버튼 변경",
       "controls_menu": {
         "display_touch_controls": "터치 컨트롤 표시: "
       },
@@ -122,20 +122,21 @@
       "behavior": "동작",
       "behavior_menu": {
         "game_timing": {
-          "entry": "게임 타이밍:",
-          "50tps": "50tps (프리웨어)",
+          "entry": "게임 타이밍：",
+          "50tps": "50tps (freeware)",
           "60tps": "60tps (CS+)"
         },
-        "pause_on_focus_loss": "포커스 벗어남 시 일시정지:",
+        "pause_on_focus_loss": "포커스가 벗어날 때 일시 정지：",
         "cutscene_skip_method": {
           "entry": "컷신 건너뛰기",
           "hold": "누르고 있기",
-          "fastforward": "빨리감기"
+          "fastforward": "빠르게 감기"
+          "auto": "자동"
         },
-        "discord_rpc": "Discord Rich Presence:",
-        "allow_strafe": "스트레이프 허용:"
+        "discord_rpc": "디스코드 리치 프리센스:",
+        "allow_strafe": "스트레이프 허용："
       },
-      "links": "링크",
+      "links": "링크...",
       "advanced": "고급 설정",
       "advanced_menu": {
         "open_user_data": "사용자 데이터 열기",
@@ -159,7 +160,7 @@
         "entry": "컨트롤러",
         "keyboard": "키보드"
       },
-      "rebind": "키 다시 설정",
+      "rebind": "버튼 다시 설정",
       "rebind_menu": {
         "up": "위",
         "down": "아래",
@@ -177,22 +178,22 @@
         "menu_back": "메뉴 돌아가기/취소"
       },
       "rebind_confirm_menu": {
-        "title": "새로운 '점프' 버튼을 누르세요",
-        "cancel": "(취소하려면 Esc 키를 누르세요)"
+        "title": "새로운 \"{control}\" 버튼을 누르세요",
+        "cancel": "(취소하려면 Esc 버튼을 누르세요)"
       },
       "rumble": "진동",
       "reset_confirm": "초기화",
-      "reset_confirm_menu_title": "키를 초기화하시겠습니까?"
+      "reset_confirm_menu_title": "버튼 설정을 초기화하시겠습니까?"
     }
   },
   "soundtrack": {
-    "organya": "오르가냐",
-    "remastered": "리마스터",
-    "new": "새로움",
+    "organya": "오르간야",
+    "remastered": "리마스터드",
+    "new": "뉴",
     "famitracks": "패미트랙스",
     "ridiculon": "리디큘론"
   },
   "game": {
-    "cutscene_skip": "{key}를 계속 누르면 컷신을 건너뜁니다"
+    "cutscene_skip": "{key} 버튼을 길게 눌러 컷신 넘기기"
   }
 }
