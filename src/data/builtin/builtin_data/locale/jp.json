@@ -4,7 +4,7 @@
   "font_scale": "0.5",
   "common": {
     "name": "doukutsu-rs",
-    "back": "< 뒤고 가기",
+    "back": "< 뒤로 가기",
     "yes": "예",
     "no": "아니오",
     "on": "켜기",
